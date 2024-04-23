@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+
+
+/* Headers styles */
+
+
+
+.header {
+    height: 90vh;
+    overflow: hidden;
+    position: relative;
+    background: rgba(51, 70, 68, 0.6);
+}
+
+#background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+
+
+
+.nav {
+    width: 100%;
+    padding: 3rem 1rem;
+}
+
+.nav-container img {
+    float: left;
+    width: 150px;
+}
+
+.nav-container a {
+    float: right;
+    text-decoration: none;
+    color: #fff;
+    margin: 0 2rem;
+    font-size: 1rem;
+}
+
+.content {
+    padding: 4rem 0;
+    text-align: center;
+    margin: auto
+}
+
+.content h1 {
+    font-size: 3rem;
+    color: #fff;
+    width: 60%;
+    margin: auto;
+}
+
+.content p {
+    font-size: 1rem;
+    width: 40%;
+    margin: auto;
+    color: #fff;
+    ;
+    padding: 1rem 0 3rem;
+}
+
+button {
+    background-color: rgb(206, 83, 92);
+    color: #fff;
+    border: none;
+    padding: 1rem 4rem;
+    font-size: 1rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    box-shadow: 0 5px 0 0 rgb(255, 43, 57, .5);
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease
+}
+
+button:hover {
+    background-color: rgb(203, 47, 58);
+}
+
+.small-text {
+    font-size: .8rem;
+}
+
+
+
+
+/* Partners styles */
+
+
+.partners {
+    text-align: center;
+    padding: 2rem 0;
+    color: rgb(193, 193, 193);
+}
+
+
+.partners span {
+    color: rgb(54, 179, 168);
+}
+
+.partners img {
+    width: 100%;
+}
+
+
+
+
+/* Main Content styles */
+
+
+.main-content .content-box {
+    margin: 2rem 0 0 0;
+    text-align: center;
+    color: #333333;
+}
+
+.main-content .content-box h1 {
+    font-size: 1.8rem;
+}
+
+.main-content .content-box p {
+    color: #666666;
+    width: 55%;
+    margin: auto;
+    padding: 1rem 0 3rem;
+    line-height: 1.6;
+}
+
+
+.cards {
+    width: 100%;
+    margin: auto;
+
+}
+
+.card {
+    width: calc(100% / 3 - 1rem);
+    padding: 1rem;
+    float: left;
+    background-color: #fff;
+    text-align: center;
+}
+
+
+.card img {
+    width: 100%;
+}
+
+.card h3 {
+    color: rgb(54, 179, 168);
+    padding: 1rem 0 0 0;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.card p {
+    color: #666666;
+    line-height: 1.6;
+    padding: 1rem;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/* News-action styles */
+
+.news-action {
+    background-image: url('./img/subscripe-bg.png');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: rgba(51, 70, 68, 0.9);
+
+}
+
+.news-action-container {
+    margin: auto;
+    text-align: center;
+    padding: 2rem 0;
+    color: #fff;
+
+}
+
+.news-action h1 {
+    width: 70%;
+    margin: auto;
+    padding: 1rem 0;
+    font-size: 2.5rem;
+}
+
+.news-action .small-text {
+    padding-top: 1rem;
+}
+
+
+/* Footer styles */
+.footer {
+    color: #cccccc;
+    padding: 2rem 0 1rem 0;
+}
+
+.footer img {
+    width: 100px;
+}
+
+.footer p {
+    float: left;
+    padding: 0 1rem;
+}
+
+.footer a {
+    color: #cccccc
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .content h1 {
+        width: 90%;
+    }
+
+    .content p {
+        width: 80%;
+    }
+
+
+    .card {
+        width: calc(100% / 2 - 1rem);
+    }
+
+    .main-content .content-box h1 {
+        padding: 1rem;
+    }
+
+    .main-content .content-box p {
+
+        width: 90%;
+
+    }
+
+    .news-action h1 {
+        width: 90%;
+        margin: auto;
+        padding: 1rem 0;
+        font-size: 2rem;
+    }
+
+    .footer img {
+        width: 60px;
+    }
+
+    .footer p {
+        font-size: .7rem;
+    }
+
+    .footer a {
+        font-size: .7rem;
+    }
+
+
+
+}
+
+@media only screen and (max-width:600px) {
+
+
+    .card {
+        width: calc(100% / 1 - 1rem);
+        margin: auto;
+    }
+
+
+
+}
